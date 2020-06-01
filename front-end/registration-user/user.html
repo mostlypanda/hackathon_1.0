@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Preview your application</title>
+	<meta charset="UTF-8">
+
+  <meta name="viewport" content="width=auto">
+<!--===============================================================================================-->	
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+<!--===============================================================================================-->
+
+<style>
+	   .fileUpload {
+  float: left;
+  position: relative;
+  overflow: hidden;
+  background-color:green;
+  color: white;
+  height: 30px;
+  width: 120px;
+  text-align: center;
+  border: 2px solid green;
+  border-radius: 20px;
+  box-shadow: 2px 2px 1px 1px rgba(0, 0, 0, 0.4);
+  -webkit-transition: prop 0.4s;
+  -moz-transition: prop 0.4s;
+  -ms-transition: prop 0.4s;
+  -o-transition: prop 0.4s;
+  transition: prop 0.4s;
+}
+
+.fileUpload:after {
+  content: "";
+  background: green;
+  display: block;
+  position: absolute;
+  opacity: 0;
+  transition: all 0.8s;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px!important;
+  margin-top: -120%;
+  font-size: 20px;
+  cursor: pointer;
+  filter: alpha(opacity=0);
+  height: 100%;
+  text-align: center;
+}
+
+.fileUpload:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+
+.fileUpload input.upload {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  cursor: pointer;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  height: 100%;
+  text-align: center;
+}
+
+.fileName {
+  margin: 2px 0 0 130px;
+  width: auto;
+}
+
+.updLabel {
+  line-height: 30px;
+  font-weight: bold;
+}
+
+#uploadFile {
+  border: none;
+  width: 150px;
+  height: 30px;
+}
+
+</style>
+</head>
+
+<body>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	
+	
+	<div class="limiter">
+		<div class="container-login100">
+			<div class="wrap-login100">
+        <div style=" margin-top:-100px;margin-left: 110px;">
+            <h1 style="font-size:50px;"><b>Congratulations!!<br>You have successfully registered for the event!!!</b></h1><br><br>
+            <div><img src="DSC_0310.JPG" name="idcard"height="400px" width="500px" ></div><br>
+            <h1><b>Registration No. :</b><b name="regno"> </b></h1><br>
+            <h2><i>Your Name :</i><i name="name"> </i></h2><br>
+            <h2><i>Your Email :</i><i name="email"> </i></h2><br>
+            <h2><i>Your Mobile Number :</i><i name="mobile"> </i></h2><br>
+            <h2><i>Type of Registration :</i><i name="reg"></i></h2><br>
+            <h2><i>No. of Tickets :</i><i name="ticket"></i></h2><br>
+            
+            
+            <div class="container-login100-form-btn">
+              <button class="login100-form-btn">
+                <a href="home.html" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size:20px;"><B>Back to home page</B></a>
+              </button>
+            </div>
+          </div>
+      </div>
+		</div>
+	</div>
+<!--===============================================================================================-->	
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/tilt/tilt.jquery.min.js"></script>
+	<script >
+		$('.js-tilt').tilt({
+			scale: 1.1
+		})
+	</script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+
+</body>
+</html>
