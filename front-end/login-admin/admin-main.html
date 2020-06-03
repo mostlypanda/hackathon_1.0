@@ -98,6 +98,76 @@
 
 
 
+      .card {
+        border: none;
+      }
+      
+      .card-img {
+        border-radius: 0;
+      }
+      
+      .vgr-cards .card {
+        display: -webkit-box;
+        display: flex;
+        flex-flow: wrap;
+        -webkit-box-flex: 100%;
+                flex: 100%;
+        margin-bottom: 40px;
+      }
+      .vgr-cards .card:nth-child(even) .card-img-body {
+        -webkit-box-ordinal-group: 3;
+                order: 2;
+      }
+      .vgr-cards .card:nth-child(even) .card-body {
+        padding-left: 0;
+        padding-right: 1.25rem;
+      }
+      @media (max-width: 576px) {
+        .vgr-cards .card {
+          display: block;
+        }
+      }
+      .vgr-cards .card-img-body {
+        -webkit-box-flex: 1;
+                flex: 1;
+        overflow: hidden;
+        position: relative;
+      }
+      @media (max-width: 576px) {
+        .vgr-cards .card-img-body {
+          width: 100%;
+          height: 200px;
+          margin-bottom: 20px;
+        }
+      }
+      .vgr-cards .card-img {
+        width: 100%;
+        height: auto;
+        position: absolute;
+        margin-left: 50%;
+        -webkit-transform: translateX(-50%);
+                transform: translateX(-50%);
+      }
+      @media (max-width: 1140px) {
+        .vgr-cards .card-img {
+          margin: 0;
+          -webkit-transform: none;
+                  transform: none;
+          width: 100%;
+          height: auto;
+        }
+      }
+      .vgr-cards .card-body {
+        -webkit-box-flex: 2;
+                flex: 2;
+        padding: 0 0 0 1.25rem;
+      }
+      @media (max-width: 576px) {
+        .vgr-cards .card-body {
+          padding: 0;
+        }
+      }
+       
       
     </style>    
 </head>
@@ -136,7 +206,7 @@
                   
               </li>
               
-              <a href="" class=" btn btn-primary btn-rounded" >
+              <a href="../main-page/home.html" class=" btn btn-primary btn-rounded" >
                       Logout
               </a>
           
@@ -256,15 +326,61 @@
   <div class="row justify-content-center mt30">
     <h2> Recent Registrations</h2><br>
 
-    
-    <div>
+    <div class="container">
+      <div class="card-group vgr-cards">
+        
+        <div class="card">
+          <div class="card-img-body">
+          <img class="card-img" src="https://picsum.photos/500/230" alt="Card image cap">
+          </div>
+          <div class="card-body">
+            <h4 class="card-title">registration No.</h4>
+            <p class="card-text">
+              <i name="name" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size:20px;">name</i><br>
+              <i name="email" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size:20px;">email</i><br>
+              <i name="mobile" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size:20px;">mobile</i><br>
+              <i name="type" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size:20px;">Type of registration</i><br>
+              <i name="tickets" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size:20px;">no. of tickets</i>
+            </p>
+            
+          </div>
+        </div>
 
-      
 
+        <div class="card">
+          <div class="card-img-body">
+          <img class="card-img" src="https://picsum.photos/500/230" alt="Card image cap">
+          </div>
+          <div class="card-body">
+            <h4 class="card-title">registration No.</h4>
+            <p class="card-text">
+              <i name="name" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size:20px;">name</i><br>
+              <i name="email" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size:20px;">email</i><br>
+              <i name="mobile" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size:20px;">mobile</i><br>
+              <i name="type" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size:20px;">Type of registration</i><br>
+              <i name="tickets" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size:20px;">no. of tickets</i>
+            </p>
+            
+          </div>
+        </div><div class="card">
+          <div class="card-img-body">
+          <img class="card-img" src="https://picsum.photos/500/230" alt="Card image cap">
+          </div>
+          <div class="card-body">
+            <h4 class="card-title">registration No.</h4>
+            <p class="card-text">
+              <i name="name" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size:20px;">name</i><br>
+              <i name="email" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size:20px;">email</i><br>
+              <i name="mobile" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size:20px;">mobile</i><br>
+              <i name="type" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size:20px;">Type of registration</i><br>
+              <i name="tickets" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size:20px;">no. of tickets</i>
+            </p>
+            
+          </div>
+        </div>
 
-
-
-
+        
+      </div>
     </div>
 
   </div>
