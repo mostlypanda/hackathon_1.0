@@ -51,8 +51,9 @@ To test the system you have to first do register for event and then see in the a
 
 
 ```
-admin credentials 
+## admin credentials 
+These credentials are used for logging into the admin portal to see each movement in registration
+
 id: admin@gmail.com
 password: admin
 
-* etc
