@@ -41,12 +41,12 @@ npm i nodemon
 ```
 
 And repeat this for every package that is stated in Prequistics
-```
+
 
 
 
 ## Running the tests
-
+```
 To test the system you have to first do register for event and then see in the admin portal for further testing
 
 
