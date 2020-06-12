@@ -1,6 +1,6 @@
 # Stackhack Hackathon 1.0
 
-This web application is made for the virtual hackathon hosted by hackerearth(from may ,8, 2020 ro june ,7 2020)
+This web application is made for the virtual hackathon hosted by hackerearth(from may ,8, 2020 to june ,8 2020)
 
 This is an event-registration web-application provided with a super user(admin) portal. This site can be used to provide the registration for any grand or big event, here for instance I have used an upcoming musical concert that is to be held  in some days at new-Delhi. But it’s just a sample. Well our app provides basic as well as advanced functionalities. Here the most basic functionality, that is to successfully registered for the event, for this user has to fill a given form consisting of some basic required fields (name, contact -no, email, image of their id proof, type of reg.,no. of tickets for the event), Here we are using email as a unique auth, which means one email can be registered only once. The user can preview their registration and  finally when they successfully registered we will generate a registration no. for them.
 
