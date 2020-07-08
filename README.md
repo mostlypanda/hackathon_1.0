@@ -6,6 +6,9 @@ This is an event-registration web-application provided with a super user(admin) 
 
 Now for the super user i.e. admin side, admin can log-in to its portal by provide its credentials, once logged in, admin can access everything like seeing the no. of registration in each category of registration like self, corporate, group etc. and also he access details of any registration by just searching the registration number generated in user’s registration . He can see every registration that has done for the event.   
 
+## Technology and features
+Here for the user's interface we have used html,css,js, along with jquery and bootstraph 4, for developing server side we have used node.js with express framework and mongoDB as our database,here we have also used ajax call for searching any data in admin portal
+
 
 ## Getting Started
 
